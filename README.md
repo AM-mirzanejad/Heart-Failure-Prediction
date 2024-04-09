@@ -64,15 +64,15 @@ For a detailed demonstration and usage of the Heart Failure Predictor, refer to 
 
 - **pandas** (imported as `pd`):
   - Description: pandas is a powerful library for data manipulation and analysis, providing data structures and operations for manipulating numerical tables and time series.
-  - Icon: <img src="https://img.icons8.com/color/48/000000/pandas.png"/>
+  - Icon: <img src="https://img.icons8.com/color/48/000000/pandas.png" width="50" height="50"/>
 
 - **numpy** (imported as `np`):
   - Description: numpy is a fundamental package for scientific computing with Python, providing support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
-  - Icon: <img src="https://img.icons8.com/color/48/000000/numpy.png"/>
+  - Icon: <img src="https://img.icons8.com/color/48/000000/numpy.png" width="50" height="50"/>
 
 - **scikit-learn** (imported as `sklearn`):
   - Description: scikit-learn is a popular machine learning library in Python that provides simple and efficient tools for data mining and data analysis, including a wide variety of machine learning algorithms and utilities for model selection, evaluation, and preprocessing.
-  - Icon: ![scikit-learn icon](https://img.icons8.com/color/48/000000/scikit-learn.png)
+  - Icon: <img src="https://icon.icepanel.io/Technology/svg/scikit-learn.svg" width="50" height="50"/>
 
 
 
