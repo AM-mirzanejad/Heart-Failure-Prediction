@@ -17,7 +17,7 @@ The Heart Disease Predictor is a Python project developed to classify whether an
 
 ## Model Performance
 
-The initial version of this project implements the SVC (Support Vector Classifier) and Random Forest algorithms to predict heart disease based on patient data. The model, released on April 9, 2024, achieved an accuracy of 87% in identifying individuals at risk of heart failure.
+The initial version of this project implements the SVC (Support Vector Classifier) and Random Forest algorithms to predict heart disease based on patient data. The model, released on April 9, 2024, achieved an accuracy of 95% in identifying individuals at risk of heart failure.
 
 Future updates are expected to enhance the model's accuracy through further data collection and algorithm optimization.
 
