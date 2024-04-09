@@ -111,6 +111,6 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 Clone the repository using `git`:
 
 ```bash
-git clone <git url>
+git clone <https://github.com/AM-mirzanejad/Heart-Failure-Prediction.git>
 cd <directory_name>
 pip install -r requirements.txt
