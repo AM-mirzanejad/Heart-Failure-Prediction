@@ -7,37 +7,87 @@
   <img src="https://img.shields.io/badge/Scikit_Learn-0078D4?style=for-the-badge&logo=scikit-learn&logoColor=white">
 </p>
 
+---
 
 ## Overview
-The Heart Disease Predictor code is developed to classify whether an individual has heart disease based on specific input parameters. This project utilizes Python along with the scikit-learn and NumPy packages for implementation..
+
+The Heart Disease Predictor is a Python project developed to classify whether an individual has heart disease based on specific input parameters. It utilizes the scikit-learn and NumPy libraries for implementation.
+
+---
+
+## Model Performance
+
+The initial version of this project implements the SVC (Support Vector Classifier) and Random Forest algorithms to predict heart disease based on patient data. The model, released on April 9, 2024, achieved an accuracy of 87% in identifying individuals at risk of heart failure.
+
+Future updates are expected to enhance the model's accuracy through further data collection and algorithm optimization.
+
+Stay tuned for updates and improvements in upcoming releases!
+
+---
+
+## Jupyter Notebook
+
+For a detailed demonstration and usage of the Heart Failure Predictor, refer to the Jupyter Notebook:
+
+[![Jupyter Notebook](https://img.shields.io/badge/Open%20in-Jupyter%20Notebook-orange?style=for-the-badge&logo=jupyter)](https://github.com/AM-mirzanejad/Heart-Failure-Prediction/blob/main/Heart-Prediction.ipynb)
+
+---
+
+
+
 
 ### Machine Learning Models Used:
-- **Support Vector Classifier (SVC)**
-- **Random Forest Classifier**
-- **K-Nearest Neighbors (KNN) Imputer**
-- **MinMaxScaler**
-- **GridSearchCV**
+
+- **Support Vector Classifier (SVC):**
+  - Description: SVC is a supervised learning model used for classification tasks. It works by finding the hyperplane that best separates different classes in the feature space.
+  - Implementation: Utilized the `sklearn.svm.SVC` class from scikit-learn.
+
+- **Random Forest Classifier:**
+  - Description: Random Forest is an ensemble learning method that constructs multiple decision trees during training and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
+  - Implementation: Used the `sklearn.ensemble.RandomForestClassifier` class from scikit-learn.
+
+- **K-Nearest Neighbors (KNN) Imputer:**
+  - Description: KNN Imputer is used for imputing missing values by using the K-Nearest Neighbors approach, where missing values are imputed based on the values of neighboring data points.
+  - Implementation: Utilized the `sklearn.impute.KNNImputer` class from scikit-learn.
+
+- **MinMaxScaler:**
+  - Description: MinMaxScaler is used for scaling feature values to a specified range, usually between 0 and 1.
+  - Implementation: Used the `sklearn.preprocessing.MinMaxScaler` class from scikit-learn.
+
+- **GridSearchCV:**
+  - Description: GridSearchCV is used for hyperparameter tuning and model selection by exhaustively searching through a specified parameter grid and cross-validating the results.
+  - Implementation: Utilized the `sklearn.model_selection.GridSearchCV` class from scikit-learn.
+
+---
 
 ### Libraries and Packages Utilized:
-- **pandas** (imported as `pd`): For data manipulation and analysis.
-- **numpy** (imported as `np`): For numerical operations and array manipulations.
-- **sklearn.impute.KNNImputer**: Used for imputing missing values using the K-Nearest Neighbors approach.
-- **sklearn.preprocessing.MinMaxScaler**: Utilized for scaling feature values to a specified range.
-- **sklearn.model_selection.train_test_split**: Used to split data into training and testing sets.
-- **sklearn.svm.SVC**: Support Vector Classifier model from scikit-learn for classification tasks.
-- **sklearn.ensemble.RandomForestClassifier**: Random Forest Classifier model for ensemble learning.
-- **sklearn.metrics.accuracy_score**: Used to compute the accuracy of the classifier.
-- **sklearn.metrics.classification_report**: Generates a detailed classification report.
-- **sklearn.model_selection.GridSearchCV**: Used for hyperparameter tuning and model selection.
 
-These packages and models were integrated to build the heart disease prediction functionality within the application.
+- **pandas** (imported as `pd`):
+  - Description: pandas is a powerful library for data manipulation and analysis, providing data structures and operations for manipulating numerical tables and time series.
+  - Icon: <img src="https://img.icons8.com/color/48/000000/pandas.png" width="50" height="50"/>
+
+- **numpy** (imported as `np`):
+  - Description: numpy is a fundamental package for scientific computing with Python, providing support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+  - Icon: <img src="https://img.icons8.com/color/48/000000/numpy.png" width="50" height="50"/>
+
+- **scikit-learn** (imported as `sklearn`):
+  - Description: scikit-learn is a popular machine learning library in Python that provides simple and efficient tools for data mining and data analysis, including a wide variety of machine learning algorithms and utilities for model selection, evaluation, and preprocessing.
+  - Icon: <img src="https://icon.icepanel.io/Technology/svg/scikit-learn.svg" width="50" height="50"/>
+
+
+
+
+
+
+
+
+
 
 ## Context
+
 Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worldwide. Four out of 5CVD deaths are due to heart attacks and strokes, and one-third of these deaths occur prematurely in people under 70 years of age. Heart failure is a common event caused by CVDs and this dataset contains 11 features that can be used to predict a possible heart disease.
 
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
-
-
 
 ## Heart Disease Dataset
 
@@ -57,16 +107,10 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 | Heart Disease   | Output class (1: heart disease, 0: Normal)                                                          |
 
 ## Installation
-Clone the repository using `git`
-```
-git clone <git url>
-```
-Change to the cloned directory
-```
-cd <directory_name>
-```
-To install all requirement packages for the app
-```
-pip install -r requirements.txt
-```
 
+Clone the repository using `git`:
+
+```bash
+git clone <https://github.com/AM-mirzanejad/Heart-Failure-Prediction.git>
+cd <directory_name>
+pip install -r requirements.txt
